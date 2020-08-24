@@ -1,0 +1,15 @@
+.carouselcaption {
+    background: rgba(0, 0, 0, 0.356);
+    color: rgb(255, 255, 255);
+}
+
+.portfolioImg {
+    height: 30vh;
+}
+.card {
+    overflow: hidden;
+}
+
+.cardHide{
+    border: none;
+}

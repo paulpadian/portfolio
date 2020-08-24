@@ -1,65 +1,46 @@
 import Head from 'next/head'
+import Navbar from '../components/navbar'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Button from 'react-bootstrap/Button'
+import {Row, Col, Container} from 'react-bootstrap'
+
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+  <div >
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+          <title>Hi, I'm Paul</title>
+          <link rel="icon" href="/svg/18-red.svg" />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    <main>
+    <Navbar />
+        <div className={styles.landing}>
+        <Container fluid className={"no-gutters mx-0 px-0"}>
+          <Row xs={1}>
+            <Col md={5, {order: 1}} sm={1, { order: 2 }} xs={ { order: 2 }} className="d-none d-sm-block">
+              <div className={styles.mountainContainer}>
+                <img src="/svg/mountain.svg" className={styles.mountains}></img>
+              </div>
+            </Col>
+            <Col md={5, {order: 2}} sm={1, { order: 1 }} xs={ { order: 1 }}>
+              <div className={styles.card}>
+              <br />
+              <h1 >Hi, I'm <strong>Paul Padian.</strong></h1>
+              <hr/>
+              <br />
+              <h3>I'm a <strong>Full Stack Engineer </strong>based in Denver, CO.</h3>
+              <p>I love delivering clean and efficient code.</p>
+              <br />
+              <div >
+                <Link href='/about'><Button className="btn btn-primary btn-lg" variant="dark" id="about">Get to know me!</Button></Link>
+              </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+    </main>
+  </div>
   )
 }

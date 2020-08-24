@@ -1,0 +1,37 @@
+ <Carousel>
+<Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="/Verve.png"
+      alt="First slide"
+    />
+    <Carousel.Caption className={styles.carouselcaption}>
+      <h3>Verve Refactor</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="/Minesweeper2.png"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption className={styles.carouselcaption}>
+      <h3>Minesweeper</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="/Devspot.png"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption className={styles.carouselcaption}>
+      <h3>Devspot</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>

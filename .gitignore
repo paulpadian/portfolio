@@ -1,5 +1,6 @@
 // .gitnignore
 package-lock.json
+package-lock
 # next.js build output
 .next
 # dotenv environment variables file (build for Zeit Now)

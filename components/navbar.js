@@ -19,12 +19,8 @@ export default function portfolioNav() {
                     width="30"
                     height="30"
                     className="d-inline-block align-top"
-                />
-            </div>
-            </Navbar.Brand>
-            <Navbar.Brand href="/">
-            <div>
-                Paul Padian
+                /> {"  "}
+                 Paul Padian
             </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

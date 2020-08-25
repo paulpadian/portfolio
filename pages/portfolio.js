@@ -25,7 +25,6 @@ export default function About() {
                   <a href='//verve-refactor.herokuapp.com/' >
                   <img src='/Verve.png' className={styles.portfolioImg}/>
                   </a>
-
                 </Card>
               </Col>
               <Col lg={6}>
@@ -39,23 +38,23 @@ export default function About() {
                 </Card>
               </Col>
             </Row>
-            <br></br>
-            <Row>
+            <br/>
+            <Row >
+              <Col lg={6, {order : 2}}>
+                <Card className={styles.card}>
+                  <a href='https://paulpadian.github.io/minesweeper/'>
+                    <img src='/Minesweeper.png' className={styles.portfolioImg}/>
+                  </a>
+                </Card>
+              </Col>
               <Col lg={6}>
-                <Card className={styles.cardHide}>
+                <Card className={styles.cardHide} >
                   <Card.Body>
                     <h2>Vanilla JS Minesweeper</h2>
                     <h5>Created a microsoft inspired minesweeper game from scratch to explore game logic.</h5>
                     <p>Technology Utilization: Javascript, CSS & HTML</p>
                     <a href='https://github.com/paulpadian/minesweeper'><Button variant='dark'>See my code on github!</Button></a>
                   </Card.Body>
-                </Card>
-              </Col>
-              <Col lg={6}>
-                <Card className={styles.card}>
-                  <a href='https://paulpadian.github.io/minesweeper/'>
-                    <img src='/Minesweeper.png' className={styles.portfolioImg}/>
-                  </a>
                 </Card>
               </Col>
             </Row>

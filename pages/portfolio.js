@@ -17,7 +17,7 @@ export default function About() {
           <Navbar />
           <Container>
             <br />         
-            <h1> Paul's Portfolio:</h1>
+            <h1> <strong>Paul's</strong> Portfolio:</h1>
             <hr />
             <Row>
               <Col lg={6}>

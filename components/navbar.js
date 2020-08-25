@@ -2,14 +2,14 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Navbar, Nav, NavItem, MenuItem } from 'react-bootstrap';
 import { useEffect } from 'react'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Navbar.module.css'
 
 export default function portfolioNav() {
     // useEffect(() => {
     //     document.getElementById("home").style.color = "hotpink"
     // }, [])
     return (
-        <>
+        <div className={styles.nav}>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="/">
             <div className={styles.flip}>
@@ -35,6 +35,6 @@ export default function portfolioNav() {
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
-        </>
+        </div>
     )
 }

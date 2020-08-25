@@ -18,12 +18,12 @@ export default function Home() {
         <div className={styles.landing}>
         <Container fluid className={"no-gutters mx-0 px-0"}>
           <Row xs={1}>
-            <Col md={5, {order: 1}} sm={1, { order: 2 }} xs={ { order: 2 }} className="d-none d-sm-block">
+            <Col sm={6} className="d-none d-sm-block">
               <div className={styles.mountainContainer}>
                 <img src="/svg/mountain.svg" className={styles.mountains}></img>
               </div>
             </Col>
-            <Col md={5, {order: 2}} sm={1, { order: 1 }} xs={ { order: 1 }}>
+            <Col sm={6}>
               <div className={styles.card}>
               <br />
               <h1 >Hi, I'm <strong>Paul Padian.</strong></h1>

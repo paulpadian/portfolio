@@ -26,11 +26,14 @@ export default function Home() {
             <Col sm={6}>
               <div className={styles.card}>
               <br />
-              <h1 >Hi, I'm <strong>Paul Padian.</strong></h1>
+              <h1 >Hi, I'm <strong>Paul Padian</strong>.</h1>
               <hr/>
               <br />
-              <h3>I'm a <strong>Full Stack Engineer </strong>based in Denver, CO.</h3>
+              <h3>I'm a <strong>Full Stack Engineer</strong>.</h3>
               <p>I love delivering clean and efficient code.</p>
+              <br/>
+              <h5>📍 Denver, CO</h5>
+              <h5>📩 <a className={styles.mail} href="mailto:pdpadian@gmail.com?subject=Contact Paul">pdpadian@gmail.com</a></h5>
               <br />
               <div >
                 <Link href='/about'><Button className="btn btn-primary btn-lg" variant="dark" id="about">Get to know me!</Button></Link>

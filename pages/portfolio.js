@@ -9,21 +9,33 @@ import styles from '../styles/Portfolio.module.css'
 
 export default function About() {
     return (
-        <div>
+        <div className={styles.landing}>
           <Head>
             <title>Paul's Portfolio</title>
             <link rel="icon" href="/svg/18-red.svg" />
           </Head>
           <Navbar />
-          <Container>
-            <br />         
+          <Container fluid className={"no-gutters mx-0 px-0"}>
+          <Row >
+            <Col sm={5} className="d-none d-sm-block">
+              <div className={styles.mountainContainer}>
+                  <img src="/svg/mountain.svg" className={styles.mountains}></img>    
+              </div>
+            </Col>
+            <Col sm={6}>
+            <br /> 
+            <br />
+            <br />        
             <h1> <strong>Paul's</strong> Portfolio:</h1>
             <hr />
             <Row>
               <Col lg={6}>
                 <Card className={styles.card}>
                   <a href='//verve-refactor.herokuapp.com/' >
-                  <img src='/Verve.png' className={styles.portfolioImg}/>
+                  <img src='/Verve.png' className={styles.image}/>
+                    <div className={styles.overlay}>
+                      <div className={styles.text}>See the live project!</div>
+                    </div>
                   </a>
                 </Card>
               </Col>
@@ -33,7 +45,7 @@ export default function About() {
                     <h2>Crossfit Verve Refactor</h2>
                     <h5>Re-designed a local gym's website to incentivize monetization of content. Implemented authorization, authentication system and administrator controls. </h5>
                     <p>Technology Utilization: PSQL, Express, EJS & JQuery</p>
-                    <a href='https://github.com/paulpadian/verve'><Button variant='dark'>See my code on github!</Button></a>
+                    
                   </Card.Body>
                 </Card>
               </Col>
@@ -42,8 +54,11 @@ export default function About() {
             <Row >
               <Col lg={6, {order : 2}}>
                 <Card className={styles.card}>
-                  <a href='https://paulpadian.github.io/minesweeper/'>
-                    <img src='/Minesweeper.png' className={styles.portfolioImg}/>
+                  <a href='https://paulpadian.github.io/minesweeper/' >
+                  <img src='/Minesweeper.png' className={styles.image}/>
+                    <div className={styles.overlay}>
+                      <div className={styles.text}>See the live project!</div>
+                    </div>
                   </a>
                 </Card>
               </Col>
@@ -53,7 +68,7 @@ export default function About() {
                     <h2>Vanilla JS Minesweeper</h2>
                     <h5>Created a microsoft inspired minesweeper game from scratch to explore game logic.</h5>
                     <p>Technology Utilization: Javascript, CSS & HTML</p>
-                    <a href='https://github.com/paulpadian/minesweeper'><Button variant='dark'>See my code on github!</Button></a>
+                    
                   </Card.Body>
                 </Card>
               </Col>
@@ -63,7 +78,10 @@ export default function About() {
               <Col lg={6}>
                 <Card className={styles.card}>
                   <a href='https://happy-hypatia-639c22.netlify.app/login'>
-                    <img src='/Devspot.png' className={styles.portfolioImg}/>
+                    <img src='/Devspot.png' className={styles.image}/>
+                    <div className={styles.overlay}>
+                      <div className={styles.text}>See the live project!</div>
+                    </div>
                   </a>
                 </Card>
               </Col>
@@ -73,13 +91,16 @@ export default function About() {
                     <h2>Devspot</h2>
                     <h5>Worked with a team setting to create a platform for developers to post open-source application ideas.</h5>
                     <p>Technology Utilization: React, MongoDB, Express & Git </p>
-                    <a href='https://github.com/jamo1998/Dev-Spot-2.0'><Button variant='dark'>See my code on github!</Button></a>
+                   
                   </Card.Body>
                 </Card>
               </Col>
             </Row>
             <br />
-          </Container>
+            </Col>
+          </Row>
+        </Container>
+         
         </div>
     )
 }

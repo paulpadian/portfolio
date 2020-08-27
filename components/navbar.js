@@ -10,7 +10,7 @@ export default function portfolioNav() {
     // }, [])
     return (
         <div className={styles.nav}>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect  fixed="top" expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="/">
             <div className={styles.flip}>
                 <img
@@ -26,7 +26,6 @@ export default function portfolioNav() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href="/about">About</Nav.Link>
                 <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

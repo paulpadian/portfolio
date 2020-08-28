@@ -52,7 +52,7 @@ export default function About() {
             </Row>
             <br/>
             <Row >
-              <Col lg={6, {order : 2}}>
+              <Col lg={6}>
                 <Card className={styles.card}>
                   <a href='https://paulpadian.github.io/minesweeper/' >
                   <img src='/Minesweeper.png' className={styles.image}/>

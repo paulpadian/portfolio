@@ -10,7 +10,7 @@ export default function portfolioNav() {
     // }, [])
     return (
         <div className={styles.nav}>
-            <Navbar collapseOnSelect  fixed="top" expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect   expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="/">
             <div className={styles.flip}>
                 <img

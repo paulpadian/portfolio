@@ -27,6 +27,7 @@ export default function portfolioNav() {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                 <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+                <Nav.Link href="/resume/paul-padian-resume.pdf">Resume</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>

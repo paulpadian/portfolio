@@ -15,6 +15,10 @@ export default function About() {
             <link rel="icon" href="/svg/18-red.svg" />
           </Head>
           <Navbar />
+            <br /> 
+            <br />
+            <br /> 
+            <br /> 
           <Container fluid className={"no-gutters mx-0 px-0"}>
           <Row >
             <Col sm={5} className="d-none d-sm-block">
@@ -23,9 +27,7 @@ export default function About() {
               </div>
             </Col>
             <Col sm={6}>
-            <br /> 
-            <br />
-            <br />        
+                 
             <h1> <strong>Paul's</strong> Portfolio:</h1>
             <hr />
             <Row>

@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
     <main>
     <Navbar />
-    <br />
+
         <div className={styles.landing}>
         <Container fluid className={"no-gutters mx-0 px-0"}>
           <Row >

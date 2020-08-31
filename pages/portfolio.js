@@ -17,8 +17,6 @@ export default function About() {
           <Navbar />
             <br /> 
             <br />
-            <br /> 
-            <br /> 
           <Container fluid className={"no-gutters mx-0 px-0"}>
           <Row >
             <Col sm={5} className="d-none d-sm-block">

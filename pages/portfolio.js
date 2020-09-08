@@ -12,14 +12,7 @@ export default function About() {
       <Head>
       <title>Paul's Portfolio</title>
       <link rel="icon" href="/svg/18-red.svg" />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177380102-1"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)};
-        gtag('js', new Date());
-
-        gtag('config', 'UA-177380102-1');
-      </script>
+      
     </Head>
         <div className={styles.landing}>
         

@@ -9,13 +9,11 @@ import styles from '../styles/Portfolio.module.css'
 
 export default function About() {
     return (
-      <Head>
-      <title>Paul's Portfolio</title>
-      <link rel="icon" href="/svg/18-red.svg" />
-      
-    </Head>
         <div className={styles.landing}>
-        
+          <Head>
+            <title>Paul's Portfolio</title>
+            <link rel="icon" href="/svg/18-red.svg" />
+          </Head>
           <Navbar />
             <br /> 
             <br />

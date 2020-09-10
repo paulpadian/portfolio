@@ -42,7 +42,7 @@ export default function Home() {
                 <a href='https://www.linkedin.com/in/paul-padian/'><img src="/svg/linkedin-plain.svg" alt="Linkedin Link Img" className={styles.logo}/></a>
                 <br />
                 <br />
-                <Link href='/resume/paul-padian-resume.pdf'><Button className="btn btn-primary btn-lg" variant="dark" download >Download my Resume</Button></Link>
+                <Link href='/resume/paul-padian-resume.pdf'><Button className="btn btn-primary btn-lg" variant="dark" download >Download My Resume!</Button></Link>
                 <br />
                 <br />
               <div >

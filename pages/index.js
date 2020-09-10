@@ -25,7 +25,7 @@ export default function Home() {
               </div>
             </Col>
             <Col sm={6}>
-              <div className={styles.card}>
+              <div>
                 <br />
                 <h1 >Hi, I'm <strong>Paul Padian</strong>.</h1>
                 <hr/>
@@ -45,7 +45,7 @@ export default function Home() {
                 <Link href='/resume/paul-padian-resume.pdf'><Button className="btn btn-primary btn-lg" variant="dark" download >Download My Resume!</Button></Link>
                 <br />
                 <br />
-              <div >
+              <div>
                 <About />
               </div>
               </Jumbotron>

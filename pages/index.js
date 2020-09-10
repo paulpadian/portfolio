@@ -3,7 +3,7 @@ import Navbar from '../components/navbar'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Button from 'react-bootstrap/Button'
-import {Row, Col, Container} from 'react-bootstrap'
+import {Row, Col, Container, Jumbotron} from 'react-bootstrap'
 import About from '../components/about.js'
 
 export default function Home() {
@@ -29,12 +29,14 @@ export default function Home() {
                 <br />
                 <h1 >Hi, I'm <strong>Paul Padian</strong>.</h1>
                 <hr/>
+               
                 <h3>I'm a <strong>Full Stack Engineer</strong>.</h3>
                 <p>I love delivering clean and efficient code.</p>
                 <br/>
                 <h5>📍 Denver, CO</h5>
                 <h5>📨 <a className={styles.mail} href="mailto:pdpadian@gmail.com?subject=Contact Paul">pdpadian@gmail.com</a></h5>
                 <br />
+                <Jumbotron>
                 <h5>Connect with me:</h5>
                 <a href="https://github.com/paulpadian/"><img src="/svg/github-original.svg" alt="Github Link Image" className={styles.logo}/></a>
                 <a href='https://www.linkedin.com/in/paul-padian/'><img src="/svg/linkedin-plain.svg" alt="Linkedin Link Img" className={styles.logo}/></a>
@@ -46,6 +48,7 @@ export default function Home() {
               <div >
                 <About />
               </div>
+              </Jumbotron>
               </div>
             </Col>
           </Row>

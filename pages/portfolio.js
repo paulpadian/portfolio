@@ -22,7 +22,7 @@ export default function About() {
           <Row >
             <Col sm={5} className="d-none d-sm-block">
               <div className={styles.mountainContainer}>
-                  <img src="/svg/mountain.svg" className={styles.mountains}></img>    
+                  <img src="/svg/61.svg" className={styles.mountains}></img>    
               </div>
             </Col>
             <Col sm={6}>

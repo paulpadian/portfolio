@@ -78,7 +78,7 @@ export default function About() {
             <Row>
               <Col lg={6}>
                 <Card className={styles.card}>
-                  <a href='https://happy-hypatia-639c22.netlify.app/login'>
+                  <a href='https://happy-hypatia-639c22.netlify.app/'>
                     <img src='/Devspot.png' className={styles.image}/>
                     <div className={styles.overlay}>
                       <div className={styles.text}>See the live project!</div>

@@ -10,7 +10,7 @@
 
 .card {
     border: none;
-    height: 32vh;
+    height: 28vh;
     overflow: hidden;
 }
 
@@ -78,4 +78,7 @@ text-align: center;
     overflow: hidden;
   }
   
+.portfolioContainer {
+  padding: 1rem;
+}
  

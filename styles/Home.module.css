@@ -102,10 +102,12 @@
   align-items: flex-end;
   justify-content:  center;
   height: 100%;
+  width: 18%;
   background: linear-gradient(180deg, rgba(0,131,134,1) 8%, rgba(120,120,120,0.6054796918767507) 100%, rgba(238,238,238,0.5158438375350141) 100%);
   top: 0;
   position: fixed;
   z-index: -1;
+  border: 1px solid rgb(184, 184, 184);
 }
 
 .landing {
@@ -136,3 +138,4 @@
 .aboutContainer {
   padding: 1rem;
 }
+

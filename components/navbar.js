@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { Navbar, Nav, NavItem, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, MenuItem, Container } from 'react-bootstrap';
 import { useEffect } from 'react'
 import styles from '../styles/Navbar.module.css'
 
@@ -11,6 +11,7 @@ export default function portfolioNav() {
     return (
         <div className={styles.nav}>
             <Navbar collapseOnSelect   expand="lg" bg="dark" variant="dark">
+            <Container>
             <Navbar.Brand href="/">
             <div className={styles.flip}>
                 <img
@@ -26,10 +27,10 @@ export default function portfolioNav() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                 <Nav.Link href="/resume/paul-padian-resume.pdf">Resume</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
+            </Container>
             </Navbar>
         </div>
     )

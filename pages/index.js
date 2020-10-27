@@ -37,7 +37,7 @@ export default function Home() {
                   <h2>I'm a <strong>Full Stack Engineer</strong>.</h2>
                   
                   <h5>I love delivering clean and efficient code.</h5>
-                  <h5>📍 Denver, CO</h5>
+                  <h5>📍 Oklahoma City, OK</h5>
                   <h5>📨 <a className={styles.mail} href="mailto:pdpadian@gmail.com?subject=Contact Paul">pdpadian@gmail.com</a></h5>
                   <br />
                   <Stack />
